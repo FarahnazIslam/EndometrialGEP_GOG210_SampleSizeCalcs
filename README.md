@@ -6,8 +6,8 @@ To clinically validate this novel GEP MR risk predictor, Tempus will use samples
 
 ## Sample Size Determination
 Sample size and power for the primary endpoint were calculated using 10,000 simulations under the following assumptions:
-* 4-year distant recurrence rate of 5.7%
-* Sensitivity of 54.5% and specificity of 78.5% were considered and an additional scenario with sensitivity of 49.5% and specificity of 73.5%
+* [PORTEC-2](https://doi.org/10.1016/S0140-6736(09)62163-2) and [GOG-99](https://doi.org/10.1016/j.ygyno.2003.11.048) reported distant recurrence rates between 5.7% to 10%. A 4-year distant recurrence rate of 5.7% was assumed in order to conservatively estimate power.
+* Based on the Stanford-Howitt training dataset, a sensitivity of 54.5% and specificity of 78.5% was considered and an additional scenario with sensitivity of 49.5% and specificity of 73.5% was considered
 * Yearly attrition rate of 15%
 
 Under these assumptions, power and the sample size required to test the primary endpoint at the one-sided 5% significance can be determined.
