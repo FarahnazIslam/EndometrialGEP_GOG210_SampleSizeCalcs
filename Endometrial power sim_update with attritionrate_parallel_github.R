@@ -48,7 +48,7 @@ sim.fun=function(parallel_index,num.subjects,recur_rate,Sen,Spe,hazard,drop.haza
   p_value = pnorm(Z, lower.tail=FALSE)
   sig = ifelse(p_value<alpha, 1, 0)
   
-  #estimate overall 4Y recurrence rate
+  #estimate 4Y recurrence rate
   fit1 = survfit(Surv(FU, disease_pos) ~ 1, error=c("greenwood"), data=data)
   surv_est1 = summary(fit1, time=48)$surv 
   
